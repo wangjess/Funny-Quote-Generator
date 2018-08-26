@@ -1,0 +1,16 @@
+h1 {
+    color: purple;
+    text-align: center;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.button_wrapper {
+    text-align: center;
+}
+
+.button {
+    position: relative;
+}

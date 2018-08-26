@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    
+	<title>Funny Quote Gen</title>
+    
+    <script src="javascript.js"></script>
+     <script>
+        function newQuote() {
+            var randomNumber = Math.floor(Math.random() * (quotes.length));
+            document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber];
+        }
+     </script>
+</head>
+    
+<body>
+	<h1>Simple Funny Quote Generator</h1>
+    
+	<div id="quoteDisplay">
+		<!-- Quotes will display here! -->
+	</div>
+    
+    <div class="button_wrapper">
+        <button class= "button" onclick="newQuote()">New Quote</button>
+    </div>
+</body>
+</html>
+
